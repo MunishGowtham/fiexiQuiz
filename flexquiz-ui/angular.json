@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "flexquiz-ui"
+    }
+  },
+  "defaultProject": "flexquiz-ui",
+  "cli": {
+    "analytics": false
+  }
 }
