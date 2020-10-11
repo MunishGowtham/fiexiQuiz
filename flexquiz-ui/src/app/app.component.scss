@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+.mat-card {
+    margin: 2.5% 1.5%;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    background-color: #ffffff;
+    padding: 0;
+    .header {
+        min-height: 100px;
+        .title {
+            font-family: "Open Sans";
+            color: rgba(0, 0, 0, 0.87);
+            font-size: 24px;
+            letter-spacing: 0;
+            line-height: 33px;
+            padding: 4.05% 2.2%;
+        }
+    }
+    .mat-table {
+        box-shadow: none;
+        font-family: "Open Sans";
+        .mat-header-cell {
+            color: rgba(0, 0, 0, 0.87);
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.1px;
+            line-height: 24px;
+        }
+        .mat-cell {
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 14px;
+            letter-spacing: 0.25px;
+            line-height: 20px;
+            height: 49px;
+        }
+    }
+}
